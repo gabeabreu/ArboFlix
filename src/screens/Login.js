@@ -7,8 +7,8 @@ import {
   TextInput,
   Text,
 } from "react-native";
-import profile from "../../assets/profile.png";
-import CustomButton from "../CustomButton";
+import profile from "../assets/profile.png";
+import CustomButton from "../components/CustomButton";
 
 const width = Dimensions.get("screen").width;
 
@@ -34,6 +34,8 @@ export default function Login() {
 const styles = StyleSheet.create({
   main: {
     alignItems: "center",
+    backgroundColor: "#43AB6E",
+    flex: 1,
   },
 
   container: {
